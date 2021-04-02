@@ -2,5 +2,29 @@
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
+
+nav {
+  background: #111;
+}
+
+nav .nav-contain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 25px;
+  padding: 15px;
+}
+
+nav .nav-contain .link {
+  text-decoration: none;
+  color: #ebe7e7;
+}
+/*# sourceMappingURL=styles.css.map */
