@@ -4,9 +4,9 @@
   }
   .works-holder {
   display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(100px, 300px));
+	grid-template-columns: 1fr;
   justify-content: center;
-  grid-column-gap: 25px;
+  grid-column-gap: 10px;
 	grid-row-gap: 50px;
     .works {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
@@ -27,4 +27,19 @@
       }
     }
   }
+
+@media (min-width: $tablet) {
+  .works-holder {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: $desktop) {
+  .works-holder {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+  }
+}
 }
