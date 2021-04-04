@@ -1,67 +1,77 @@
 header {
-nav {
-	background: $color3;
-	.nav-contain {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin: 0 10px;
-	padding: 15px;
-	.link {
-	text-decoration: none;
-	color: $color1;
-	}
-}
-}
-.head-section {
-	position: relative;
-	background: #000;
-	color: $color1;
-	padding-bottom: 20px;
-	height: auto;
-	.inner-head {
-	  width: 100%;
-	  padding-top: 5%;
-	  padding-left: 40px;
-		.inner-head-para {
-			width: 80%;
-			text-align: start;
-			border-left: 4px solid $color2;
-			padding: 15px;
-			padding-left: 15px;
-			.h-2 {
-				font-family: $font-stack1;
-				font-weight: bolder;
-				line-height: 2.3rem;
-				color: $color2;
-			}
-			
-			.icons-l {
-				font-size: 20px;
-				color: $color2;
-				padding: 0 10px;
-				&:hover {
-					color: $color1;
-				}
-			}
-		}
-	}
+  nav {
+    background: $color3;
+
+    .nav-contain {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 10px;
+      padding: 15px;
+
+      .link {
+        text-decoration: none;
+        color: $color1;
+      }
+    }
   }
+
+  .head-section {
+    position: relative;
+    background: #000;
+    color: $color1;
+    padding-bottom: 20px;
+    height: auto;
+
+    .inner-head {
+      width: 100%;
+      padding-top: 5%;
+      padding-left: 40px;
+
+      .inner-head-para {
+        width: 80%;
+        text-align: start;
+        border-left: 4px solid $color2;
+        padding: 15px;
+        padding-left: 15px;
+
+        .h-2 {
+          font-family: $font-stack1;
+          font-weight: bolder;
+          line-height: 2.3rem;
+          color: $color2;
+        }
+
+        .icons-l {
+          font-size: 20px;
+          color: $color2;
+          padding: 0 10px;
+
+          &:hover {
+            color: $color1;
+          }
+        }
+      }
+    }
+  }
+
   @media (min-width: $desktop) {
-	  .head-section {
-	.inner-head {
-	  width: 100%;
-	  padding-left: 10%;
-	.inner-head-para {
-	  width: 60%;
-	  margin-bottom: 50px;
-	  .h-2 {
-		font-family: $font-stack1;
-		font-weight: bolder;
-		color: $color2;
-	}
-	}	
-	}
+    .head-section {
+      .inner-head {
+        width: 100%;
+        padding-left: 10%;
+
+        .inner-head-para {
+          width: 60%;
+          margin-bottom: 50px;
+
+          .h-2 {
+            font-family: $font-stack1;
+            font-weight: bolder;
+            color: $color2;
+          }
+        }
+      }
     }
   }
 }

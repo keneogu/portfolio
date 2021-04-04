@@ -2,33 +2,40 @@
   .sec-h3 {
     text-align: center;
   }
+
   .works-holder {
-  display: grid;
-	grid-template-columns: 1fr;
-  justify-content: center;
-  grid-column-gap: 10px;
-	grid-row-gap: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    grid-column-gap: 10px;
+    grid-row-gap: 50px;
+
     .works {
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+      box-shadow:
+        0 4px 8px 0 rgba(0, 0, 0, 0.2),
         0 6px 20px 0 rgba(0, 0, 0, 0.19);
       text-align: center;
       padding: 10px;
+
       .btn {
         color: $color1;
         background: $color2;
         margin: 10px;
-        }
+      }
+
       .image {
         width: 100%;
       }
+
       .works-h5 {
-        font-family: Poppins;
+        font-family: $font-stack1;
         font-style: normal;
         font-weight: 600;
         font-size: 24px;
         line-height: 32px;
         padding: 10px;
       }
+
       .w-1 {
         margin: 5px;
         padding: 5px;
@@ -37,21 +44,30 @@
         color: $color1;
         background-color: $color3;
       }
+
+      .work-link {
+        padding: 10px;
+        color: $color1;
+        background: $color2;
+        border-radius: 5px;
+        text-decoration: none;
+      }
     }
   }
 
-@media (min-width: $tablet) {
-  .works-holder {
-    display: grid;
-    grid-template-columns: 1fr;
+  @media (min-width: $tablet) {
+    .works-holder {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
   }
-}
-@media (min-width: $desktop) {
-  .works-holder {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 50px;
-    grid-row-gap: 50px;
+
+  @media (min-width: $desktop) {
+    .works-holder {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 50px;
+      grid-row-gap: 50px;
+    }
   }
-}
 }

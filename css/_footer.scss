@@ -1,12 +1,15 @@
 .footer {
   background: $color3;
+
   .foot-icons {
     padding: 13px;
     text-align: center;
+
     .icons-f {
       color: $color1;
       padding: 0 15px;
       font-size: 24px;
+
       &:hover {
         color: $color2;
       }
