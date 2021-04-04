@@ -1,0 +1,18 @@
+.about-sec {
+  background: #000;
+  color: $color1;
+  .btn {
+	color: $color1;
+	background: $color2;
+	margin-bottom: 10px;
+  }
+  .lang-icon-contain {
+    display: flex;
+    flex-wrap: wrap;
+    .lang-icon {
+	  padding: 0 5px;
+	  border-radius: 100%;
+  }
+  }
+  
+}

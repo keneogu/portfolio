@@ -1,0 +1,30 @@
+.first_section {
+  .sec-h3 {
+    text-align: center;
+  }
+  .works-holder {
+  display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 300px));
+  justify-content: center;
+  grid-column-gap: 25px;
+	grid-row-gap: 50px;
+    .works {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      text-align: center;
+      padding: 10px;
+
+      .image {
+        width: 100%;
+      }
+      .works-h5 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        padding: 10px;
+      }
+    }
+  }
+}
