@@ -13,7 +13,11 @@
         0 6px 20px 0 rgba(0, 0, 0, 0.19);
       text-align: center;
       padding: 10px;
-
+      .btn {
+        color: $color1;
+        background: $color2;
+        margin: 10px;
+        }
       .image {
         width: 100%;
       }
@@ -24,6 +28,14 @@
         font-size: 24px;
         line-height: 32px;
         padding: 10px;
+      }
+      .w-1 {
+        margin: 5px;
+        padding: 5px;
+        border: 1px dotted #000;
+        border-radius: 40%;
+        color: $color1;
+        background-color: $color3;
       }
     }
   }

@@ -6,6 +6,21 @@
           box-sizing: border-box;
 }
 
+p {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
 header nav {
   background: #4d4c4c;
 }
@@ -52,7 +67,9 @@ header .head-section .inner-head .inner-head-para {
 }
 
 header .head-section .inner-head .inner-head-para .h-2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  line-height: 2.3rem;
   color: #db7312;
 }
 
@@ -69,10 +86,16 @@ header .head-section .inner-head .inner-head-para .icons-l:hover {
 @media (min-width: 1024px) {
   header .head-section .inner-head {
     width: 100%;
+    padding-left: 10%;
   }
   header .head-section .inner-head .inner-head-para {
     width: 60%;
     margin-bottom: 50px;
+  }
+  header .head-section .inner-head .inner-head-para .h-2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    color: #db7312;
   }
 }
 
@@ -99,6 +122,12 @@ header .head-section .inner-head .inner-head-para .icons-l:hover {
   padding: 10px;
 }
 
+.first_section .works-holder .works .btn {
+  color: #ebe7e7;
+  background: #db7312;
+  margin: 10px;
+}
+
 .first_section .works-holder .works .image {
   width: 100%;
 }
@@ -110,6 +139,15 @@ header .head-section .inner-head .inner-head-para .icons-l:hover {
   font-size: 24px;
   line-height: 32px;
   padding: 10px;
+}
+
+.first_section .works-holder .works .w-1 {
+  margin: 5px;
+  padding: 5px;
+  border: 1px dotted #000;
+  border-radius: 40%;
+  color: #ebe7e7;
+  background-color: #4d4c4c;
 }
 
 @media (min-width: 768px) {

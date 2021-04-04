@@ -6,6 +6,20 @@
   box-sizing: border-box;
 }
 
+p {
+  font-family: $font-stack2;
+  font-size: 18px;
+  line-height: 1.4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-stack1;
+}
+
 @import "./header";
 @import "./first_section";
 @import "./about";

@@ -1,7 +1,6 @@
 header {
 nav {
 	background: $color3;
-	
 	.nav-contain {
 	display: flex;
 	justify-content: space-between;
@@ -31,9 +30,12 @@ nav {
 			padding: 15px;
 			padding-left: 15px;
 			.h-2 {
-				font-family: 'Poppins', sans-serif;
+				font-family: $font-stack1;
+				font-weight: bolder;
+				line-height: 2.3rem;
 				color: $color2;
 			}
+			
 			.icons-l {
 				font-size: 20px;
 				color: $color2;
@@ -49,9 +51,15 @@ nav {
 	  .head-section {
 	.inner-head {
 	  width: 100%;
+	  padding-left: 10%;
 	.inner-head-para {
 	  width: 60%;
 	  margin-bottom: 50px;
+	  .h-2 {
+		font-family: $font-stack1;
+		font-weight: bolder;
+		color: $color2;
+	}
 	}	
 	}
     }
